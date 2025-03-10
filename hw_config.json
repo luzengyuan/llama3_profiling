@@ -1,0 +1,25 @@
+{
+    "name": "hw_config",
+    "version": "1.0.0",
+    "description": "Hardware configuration",
+    "compute": {
+        "tile_tensor_ops": 65536,
+        "tile_vector_ops": 1365
+    },
+    "memory": {
+        "memory_size": 36864,
+        "memory_bandwidth": 512
+    },
+    "interconnect": {
+        "interconnect_bandwidth": 512
+    },
+    "clock": {
+        "clock_rate": 1
+    },
+    "utilization_rate":{
+        "tensor_rate": 1,
+        "vector_rate": 1,
+        "memory_rate": 1,
+        "interconnect_rate": 1
+    }
+}
